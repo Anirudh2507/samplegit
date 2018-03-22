@@ -8,6 +8,6 @@ http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/cor
     <flow name="samplegitFlow">
         <set-payload doc:name="Set Payload"/>
         <logger message="#[payload]" level="INFO" doc:name="Logger"/>
-    	<set-payload value="#[payload]" doc:name="Set Payload"/>
+        <set-payload value="#[payload]" doc:name="Set Payload"/>
     </flow>
 </mule>
